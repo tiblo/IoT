@@ -1,4 +1,4 @@
-# Front-end 수업 자료 공간
+# HTML 수업 자료 공간
 
 ## 순서 목록 참고 사이트
 https://www.w3schools.com/cssref/playit.asp?filename=playcss_ol_list-style-type&preval=armenian
