@@ -8,4 +8,4 @@ https://coolors.co/palettes/trending
 
 ## 더미 텍스트
 
-orem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper augue vel augue rutrum faucibus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper augue vel augue rutrum faucibus.
