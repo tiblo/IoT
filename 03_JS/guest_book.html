@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방명록</title>
+	<style>
+		.control {
+			margin: 10px 0;
+		}
+		.headers, .gitem {
+			width: 600px;
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0;
+		}
+		.item {
+			border: 1px solid black;
+			text-align: center;
+			box-sizing: border-box;
+		}
+		.ck {
+			width: 50px;
+		}
+		.no {
+			width: 100px;
+		}
+		.na {
+			width: 150px;
+		}
+		.co {
+			width: 300px;
+		}
+		.wrap {
+			width: 600px;
+			padding: 0;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+    <h2>방명록</h2>
+    <div class="control">
+        <input id="name" type="text" placeholder="이름"><br>
+        <input id="content" type="text" placeholder="내용"><br>
+        <button>추가</button>
+        <button>삭제</button>
+    </div>
+    <div class="wrap">
+        <div class="headers">
+            <div class="item ck">선택</div>
+            <div class="item no">번호</div>
+            <div class="item na">이름</div>
+            <div class="item co">내용</div>
+        </div>
+        <div class="guestList">
+        </div>
+    </div>
+</body>
+</html>
