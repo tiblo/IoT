@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성적 관리 프로그램</title>
+    <style>
+        input {
+            height: 30px;
+        }
+        .wrap {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .init, .btnarea, #eve {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #space {
+            width: 600px;
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .student {
+            display: flex;
+            align-items: center;
+            margin: 5px;
+        }
+        .no {
+            width: 50px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+        .score {
+            width: 200px;
+            height: 30px;
+        }
+        #eve {
+            display: flex;
+            justify-content: center;
+        }
+        #eve>div {
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h2>성적 관리 프로그램</h2>
+        <div class="init">
+            인원수 : <input type="number" id="in_num">
+            <button id="create">생성</button>
+        </div>
+        <div class="btnarea">
+            <button id="sum">총점</button>
+            <button id="avg">평균</button>
+        </div>
+        <div id="space"></div>
+        <div id="eve"></div>
+    </div>
+</body>
+<script></script>
+</html>
