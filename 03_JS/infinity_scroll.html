@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무한 스크롤</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            background-color: white;
+        }
+        .section>.article {
+            height: 500px;
+        }
+        .section>.article>p {
+            padding: 80px 20px;
+            font-size: 1.5rem;
+        }
+        .section>.article:nth-child(odd) {
+            background-color: aqua;
+            color: black;
+        }
+        .section>.article:nth-child(even) {
+            background-color: crimson;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>무한 스크롤</h1>
+    </div>
+    <div class="section">
+        <div class="article">
+            <p>1번 영역</p>
+        </div>
+        <div class="article">
+            <p>2번 영역</p>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>
