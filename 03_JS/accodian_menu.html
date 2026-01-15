@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아코디언 메뉴</title>
+    <style>
+        .nav {
+            width: 80%;
+        }
+        .abtn {
+            width: 100%;
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+        .active, .abtn:hover {
+            background-color: #ccc;
+        }
+        .pcontent {
+            padding: 0 18px;
+            background-color: white;
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="abtn">Section 1</div>
+        <div class="pcontent">
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat.
+            </p>
+        </div>
+    
+        <div class="abtn">Section 2</div>
+        <div class="pcontent">
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea 
+                commodo consequat.
+            </p>
+        </div>
+        <div class="abtn">Section 3</div>
+    </div>    
+</body>
+<script>
+</script>
+</html>
