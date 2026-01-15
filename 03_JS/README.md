@@ -89,28 +89,32 @@ javascript<br>
 
 ## jQuery 이벤트 키워드
 1. 마우스 이벤트
-    click : 클릭이벤트
-    dblclick : 더블 클릭 이벤트
-    mouseenter/hover : 요소 위에 마우스가 위치함.
-    mouseleave : 요소 밖으로 마우스가 나감.
-    mousedown : 마우스 버튼이 눌렸을 때.
+    click : 클릭이벤트<br>
+    dblclick : 더블 클릭 이벤트<br>
+    mouseenter/hover : 요소 위에 마우스가 위치함.<br>
+    mouseleave : 요소 밖으로 마우스가 나감.<br>
+    mousedown : 마우스 버튼이 눌렸을 때.<br>
     mouseup : 누른 마우스 버튼에서 손을 땔 때.
-2. 키보드 이벤트
-    keydown : 키보드의 키가 눌렸을 때.
-    keyup : 키보드의 눌려있던 키에서 손을 땔 때.
+   
+3. 키보드 이벤트
+    keydown : 키보드의 키가 눌렸을 때.<br>
+    keyup : 키보드의 눌려있던 키에서 손을 땔 때.<br>
     keypress : 키가 눌려있는 상태.
-3. Form 이벤트
-    submit : type이 submit인 input 태그가 눌렸을 때.
-    change : select 같은 입력 태그의 value 값 변경.
-    focus : 입력태그가 포커스를 가질 때.
-    blur : 입력태그의 포커스가 해제될 때.
-4. 문서 이벤트
-    load : 문서가 화면에 보일 때.
-    resize : 창의 크기가 변경되었을 때.
-    scroll : 페이지가 스크롤될 때.
+   
+4. Form 이벤트
+    submit : type이 submit인 input 태그가 눌렸을 때.<br>
+    change : select 같은 입력 태그의 value 값 변경.<br>
+    focus : 입력태그가 포커스를 가질 때.<br>
+    blur : 입력태그의 포커스가 해제될 때.<br>
+   
+6. 문서 이벤트
+    load : 문서가 화면에 보일 때.<br>
+    resize : 창의 크기가 변경되었을 때.<br>
+    scroll : 페이지가 스크롤될 때.<br>
     unload : 다른 페이지로 전환되기 직전.
-5. on 메소드
-    선택한 요소에 하나 이상의 이벤트를 처리할 때 사용.
-    일반적으로 동적 바인딩된 요소의 이벤트 처리에 사용.
-    동적 바인딩 : 자바스크립트 코드로 생성된 요소와
+   
+8. on 메소드
+    선택한 요소에 하나 이상의 이벤트를 처리할 때 사용.<br>
+    일반적으로 동적 바인딩된 요소의 이벤트 처리에 사용.<br>
+    동적 바인딩 : 자바스크립트 코드로 생성된 요소와<br>
             그 요소에서 처리할 이벤트를 묶어주는 작업. 
